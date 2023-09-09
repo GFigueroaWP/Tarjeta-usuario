@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    width: 70%;
+    height: 270px;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+.banner {
+    height: 30%;
+    background-color: #17a2b8;
+}
+.profilePicture {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: -40px;
+    left: 25px;
+}
+.profile {
+    display: flex;
+}
+.empty {
+    flex: 1;
+}
+.content {
+    position: relative;
+    top: -65px;
+    margin: 20px;
+    flex: 1;
+}
+.name {
+    margin-bottom: 5px;
+}
+.location {
+    display: flex;
+    align-items: center;
+    font-size: small;
+    margin-bottom: 5px;
+}
+.location > img {
+    width: 13px;
+    margin-right: 5px;
+}
+.description {
+    margin-bottom: 5px;
+}
+.editProfile {
+    display: flex;
+    align-items: center;
+}
+.editProfile > img {
+    width: 13px;
+    margin-right: 5px;
+}
